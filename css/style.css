@@ -562,6 +562,16 @@ footer .contacts-block{
     section.stat .stat-list .item .number{
         font-size: 4.5rem;
     }
+    section.video-block .img:before{
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+    }
+    section.video-block .big .img:before{
+        background-size: contain;
+        width: 120px;
+        height: 120px;
+    }
 }
 @media (max-width: 740px) {
     section.form .step-list{
